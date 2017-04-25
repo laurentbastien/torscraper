@@ -40,4 +40,4 @@ for article in df["title"]:
 		counter = 0
 
 newdf = pd.DataFrame(alltitles)
-newdf.to_csv("thisismygannettdata", sep=' ', index=False, header=False)
+newdf.to_csv("thisismydata", sep=' ', index=False, header=False)
